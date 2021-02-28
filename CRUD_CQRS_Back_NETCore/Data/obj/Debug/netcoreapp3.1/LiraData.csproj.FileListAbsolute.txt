@@ -1,0 +1,17 @@
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\obj\Debug\netcoreapp3.1\LiraData.csprojAssemblyReference.cache
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\obj\Debug\netcoreapp3.1\LiraData.AssemblyInfoInputs.cache
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\obj\Debug\netcoreapp3.1\LiraData.AssemblyInfo.cs
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\obj\Debug\netcoreapp3.1\LiraData.csproj.CoreCompileInputs.cache
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\bin\Debug\netcoreapp3.1\LiraData.deps.json
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\bin\Debug\netcoreapp3.1\LiraData.runtimeconfig.json
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\bin\Debug\netcoreapp3.1\LiraData.runtimeconfig.dev.json
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\bin\Debug\netcoreapp3.1\LiraData.dll
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\bin\Debug\netcoreapp3.1\LiraData.pdb
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\bin\Debug\netcoreapp3.1\LiraConnection.dll
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\bin\Debug\netcoreapp3.1\LiraCore.dll
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\bin\Debug\netcoreapp3.1\LiraConnection.pdb
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\bin\Debug\netcoreapp3.1\LiraCore.pdb
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\obj\Debug\netcoreapp3.1\LiraData.csproj.CopyComplete
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\obj\Debug\netcoreapp3.1\LiraData.dll
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\obj\Debug\netcoreapp3.1\LiraData.pdb
+C:\FontesLirasSistemas\EcommerceDosLira\Apis\LiraEcommerce\LiraEcommerce\LiraData\obj\Debug\netcoreapp3.1\LiraData.genruntimeconfig.cache

@@ -1,0 +1,238 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraData\\LiraDataOld.csproj": {}
+  },
+  "projects": {
+    "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraConnection\\LiraConnection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraConnection\\LiraConnection.csproj",
+        "projectName": "LiraConnection",
+        "projectPath": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraConnection\\LiraConnection.csproj",
+        "packagesPath": "C:\\Users\\Lira\\.nuget\\packages\\",
+        "outputPath": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraConnection\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraCore\\LiraCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraCore\\LiraCore.csproj",
+        "projectName": "LiraCore",
+        "projectPath": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraCore\\LiraCore.csproj",
+        "packagesPath": "C:\\Users\\Lira\\.nuget\\packages\\",
+        "outputPath": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraData\\LiraDataOld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraData\\LiraDataOld.csproj",
+        "projectName": "LiraDataOld",
+        "projectPath": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraData\\LiraDataOld.csproj",
+        "packagesPath": "C:\\Users\\Lira\\.nuget\\packages\\",
+        "outputPath": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraData\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraConnection\\LiraConnection.csproj": {
+                "projectPath": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraConnection\\LiraConnection.csproj"
+              },
+              "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraCore\\LiraCore.csproj": {
+                "projectPath": "C:\\FontesLirasSistemas\\EcommerceDosLira\\Apis\\LiraEcommerce\\LiraEcommerce\\LiraCore\\LiraCore.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
