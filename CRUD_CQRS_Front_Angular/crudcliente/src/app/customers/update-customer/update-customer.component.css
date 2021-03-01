@@ -1,0 +1,117 @@
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+}
+
+section form label {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 15px;
+}
+
+section form label input {
+    padding: 5px;
+    width: 500px;
+}
+
+section form label input#IE {
+
+    width: 18px;
+    height: 18px;
+    margin-left: 15px;
+    margin-right: 5px;
+
+}
+
+section form label input#IE div {
+    display: flex;
+    flex-direction: row;
+}
+
+section form label#IELabel {
+    display: none;
+    
+}
+
+section form label#AgeLabel {
+    display: none;
+    
+}
+
+section form button {
+    width: 500px;
+    height: 40px; 
+
+    display: flex;
+    place-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+section form a {
+    width: 500px;
+    height: 40px; 
+
+    display: flex;
+    place-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.Disable {
+    display: none;
+}
+
+.Enable {
+    display: flex !important;
+}
+
+.Error-Span{
+    display: flex !important;
+    color: #da1616;
+    font-size: 15px;
+}
+
+section form label div span {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    align-content: center;
+}
+section form label div {
+    display: flex;
+    flex-direction: row;
+
+    align-content: center;
+    align-items: center;
+}
+
+section.Error-Back {
+    margin: 0 auto;
+    max-width: 1000px;
+    color: #ff1414;
+
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+section.Error-Back h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.BtnEnable {
+    background: #8bb0ff;
+}

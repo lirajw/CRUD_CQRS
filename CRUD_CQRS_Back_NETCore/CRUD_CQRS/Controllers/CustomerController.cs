@@ -45,6 +45,27 @@ namespace CRUD_CQRS.Controllers
 
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetbyId(Guid id)
+        {
+            try
+            {
+                var customer = await _CustomerService.GetById(id);
+
+                return Ok(customer);
+
+            }
+            catch (ValidationRuleException ex)
+            {
+                return NotFound(ex.Errors);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+
         [HttpPost]        
         public async Task<IActionResult> Create([FromBody] CreateCustomerRequest command)
         {

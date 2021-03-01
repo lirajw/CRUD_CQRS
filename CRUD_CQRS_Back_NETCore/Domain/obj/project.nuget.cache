@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SZnqZ3RkGnj+6aqPo2NS41Sg133vTcfYo6osfSM5JqBI5ay8wH8UAvKlibhw/ToM+EvWWaSHkv5NXKoUzhko8w==",
+  "dgSpecHash": "tBPX5SUYzzdEFqtr3fJmnEvus6DDApvgOLycWjc8p01gLzI0UkGqYcfeYpaY29cUnH2jHEYEY1H8QIMMWBEK+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

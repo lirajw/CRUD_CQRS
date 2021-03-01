@@ -1,0 +1,182 @@
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section h1 {
+    width: 100%;    
+
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+section h1.titulo {
+    font-size: 36px;
+}
+
+section div.customers {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+section div.customers a {
+    width: 100px;
+    height: 40px; 
+    
+    border: 0;
+    border-radius: 5px;
+
+    padding: 10px 25px 10px 25px;
+
+    background: #84e780;
+    color: black;
+    text-decoration: none;
+}
+
+section div.customers a:focus() {
+    border: 1px solid #36af32;
+}
+
+section div.customers ul {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 15px;
+}
+
+section div.customers ul li {           
+    max-width: 350px;    
+    margin-top: 10px;    
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+    flex: 1 1 300px;
+
+    list-style: none;
+}
+
+section div.customers ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+section div.customers ul li div.container {
+    height: 100%;
+    width: 100%;    
+    padding: 8px;
+
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px black;
+    margin-left: 5px;   
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    background: #fff;
+}
+
+section div.customers ul li div.container:host(:focus) {
+    border: 1px solid #000000;
+}
+
+section div.customers ul li div.container div {
+    display: flex;
+    flex-direction: column;
+}
+
+section div.customers ul li div.container div strong {
+    display: flex;
+    margin-top: 8px;    
+}
+
+section div.customers ul li div.container div span {
+    margin-left: 5px;
+}
+
+section div.customers ul li div.container div p {
+    margin-left: 5px;
+}
+
+section div.customers ul li div.container div#customerInfo{
+    width: 100%;
+}
+
+section div.customers ul li div.container div#customerInfo .IE {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;    
+}
+
+section div.customers ul li div.container div#customerInfo .IE strong {    
+    height: 100%;
+    align-content: center;       
+}
+
+section div.customers ul li div.container div#customerInfo .IE span {
+    height: 100%;
+    margin-top: 8px;
+    align-content: center;    
+    
+}
+
+section div.customers ul li div.container div#customerInfo .IE span input {
+    margin-right: 5px;
+}
+
+section div.customers ul li div.container .action {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 15px;
+
+    align-items: flex-end;
+    place-content: flex-end;    
+}
+
+section div.customers ul li div.container .action a {
+    width: 100px;
+    height: 40px; 
+
+    display: flex;
+    place-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+section div.customers ul li div.container .action button {
+    width: 100px;
+    height: 40px; 
+
+    display: flex;
+    place-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    border: 0;
+    outline: 0;
+
+    background: #fc7349;
+    margin-left: 5px;
+
+    cursor: pointer;
+
+}
+
+section div.customers ul li div.container .action a:nth-child(1) {
+    background: #fffd6e;
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS\\CRUD_CQRS.csproj": {}
+    "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\CRUD_CQRS\\CRUD_CQRS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS\\CRUD_CQRS.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\CRUD_CQRS\\CRUD_CQRS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS\\CRUD_CQRS.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\CRUD_CQRS\\CRUD_CQRS.csproj",
         "projectName": "CRUD_CQRS",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS\\CRUD_CQRS.csproj",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\CRUD_CQRS\\CRUD_CQRS.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\CRUD_CQRS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Data\\Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Data\\Infra.Data.csproj"
+              "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Data\\Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Data\\Infra.Data.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\Domain.csproj"
+              "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Service\\Service.csproj"
+              "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Service\\Service.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Data\\Infra.Data.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Data\\Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Data\\Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Data\\Infra.Data.csproj",
         "projectName": "Infra.Data",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Data\\Infra.Data.csproj",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Data\\Infra.Data.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Data\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,8 +105,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\Domain.csproj"
+              "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\Domain.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\Domain.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -203,14 +203,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Service\\Service.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Service\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -227,8 +227,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\Domain\\Domain.csproj"
+              "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\CRUD_CQRS\\CRUD_CQRS_Back_NETCore\\Domain\\Domain.csproj"
               }
             }
           }

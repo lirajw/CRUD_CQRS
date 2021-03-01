@@ -1,0 +1,38 @@
+
+<section id="CustomersSection">
+    <h1 class="titulo">Clientes</h1>         
+    <div class="customers">
+        <a routerLink="/customers/create">Novo Cliente</a>   
+        <ul >
+            <li *ngFor="let customer of responseCustomers">
+                <div class="container">
+                    <h1 >{{customer.name}}</h1>
+                    <div id=customerContact>
+                        <strong>Telefone:<span>{{customer.telephone}}</span></strong>
+                        <strong>Email:<span>{{customer.email}}</span></strong>
+                    </div>
+                    <div id="customerInfo">
+                        <strong>Idade: <p>{{customer.age}}</p></strong>
+                        <strong>CPF/CNPJ: <p>{{customer.cpfcnpj}}</p></strong>
+                        <div class="IE">
+                            <strong>IE: <p>{{customer.ie}}</p></strong>
+                            <span><input type="checkbox" [checked]="customer.ieIsento" onclick="return false;"/>ISENTO</span>
+                        </div>
+                    </div>
+                    <div id=customerAddress>
+                        <strong>CEP:<p>{{customer.cep}}</p></strong>
+                        <strong>Endereço:<p>{{customer.address}}</p></strong>
+                        <strong>Numero:<p>{{customer.number}}</p></strong>
+                        <strong>Bairro:<p>{{customer.district}}</p></strong>
+                        <strong>Cidade:<p>{{customer.city}}</p></strong>
+                        <strong>Estado:<p>{{customer.state}}</p></strong>
+                    </div>
+                    <div class="action">
+                        <a routerLink="/customers/update/{{customer.id}}">Editar</a>
+                        <button (click)="RemoveCustomer(customer.id)" type="button">Excluir</button>
+                    </div>
+                </div>
+            </li>            
+        </ul>
+    </div>
+</section>

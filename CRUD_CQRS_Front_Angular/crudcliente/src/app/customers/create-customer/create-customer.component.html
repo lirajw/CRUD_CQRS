@@ -1,0 +1,63 @@
+<section id="CustomersSection">
+    <h1 class="titulo">Novo Cliente</h1> 
+    <form #form="ngForm" novalidate>
+        <label for="nome"> Nome:
+            <input type="text" placeholder="Insira o nome" name="name"  required #iptName="ngModel" [(ngModel)]="request.name" autocomplete="off">
+            <span class="Disable" [class.Error-Span]="!iptName.valid && (iptName.dirty || iptName.touched)">Nome Obrigatório</span>
+        </label>
+        <label for="cpfcnpj">Cpf/Cnpj:
+            <input type="text" placeholder="Insira seu CPF ou CNPJ" name="cpfcnpj" #iptCpf="ngModel" required [(ngModel)]="request.cpfcnpj" pattern="^[0-9]*$" autocomplete="off">
+            <span class="Disable" [class.Error-Span]="!iptCpf.valid && (iptCpf.dirty || iptCpf.touched)">CPF/CNPJ Obrigatório, somente números</span>
+        </label>
+        <label for="idade" id="AgeLabel" [class.Enable]="iptCpf.value?.length <= 11 && iptCpf.value?.length > 1" [class.Desable]="iptCpf.value?.length > 11"> Idade:
+            <input type="text" placeholder="Insira sua Idade" name="age" #iptAge="ngModel" [(ngModel)]="request.age" pattern="^[0-9]*$" autocomplete="off">
+            <span class="Disable" [class.Error-Span]="iptAge.value < 18  &&  (iptAge.dirty || iptAge.touched)">Idade minima 18 anos</span>
+            <span class="Disable" [class.Error-Span]="!iptAge.valid  &&  (iptAge.dirty || iptAge.touched)">Apenas Numeros</span>
+        </label>
+        <label id="IELabel" for="ie" [class.Enable]="iptCpf.value?.length > 11">IE:
+            <div>
+                <div>
+                    <input type="text" placeholder="Insira sua Ie se for PJ" name="ie" #iptIE="ngModel" [(ngModel)]="request.ie" pattern="^[0-9]*$" autocomplete="off">
+                    <span><input id="IE" type="checkbox" name="ieIsento" #iptIsento="ngModel"[(ngModel)]="request.ieIsento"> ISENTO</span>
+                </div>
+            </div>
+            <span class="Disable" [class.Error-Span]="iptCpf.value?.length > 11 && iptIE.value?.length === 0 && iptIsento.value === false && (iptCpf.dirty || iptCpf.touched)">Informe o IE ou marque-o como isento</span>
+            <span class="Disable" [class.Error-Span]="!iptIE.valid  &&  (iptIE.dirty || iptIE.touched)">Apenas Numeros</span>
+        </label>
+        <label for="telefone">Telefone:
+            <input type="text" placeholder="Insira um telefone" name="telephone" #iptTelephone="ngModel" [(ngModel)]="request.telephone" pattern="^[0-9]*$" autocomplete="off">
+            <span class="Disable" [class.Error-Span]="!iptTelephone.valid  &&  (iptTelephone.dirty || iptTelephone.touched)">Apenas Numeros</span>
+        </label>
+        <label for="email">Email:
+            <input type="text" placeholder="Insira um email" name="email" [(ngModel)]="request.email" autocomplete="off">
+        </label>
+        <label for="cep">CEP:
+            <input type="text" placeholder="Insira um CEP" name="cep" #iptCep="ngModel" [(ngModel)]="request.cep" pattern="^[0-9]*$" autocomplete="off">
+            <span class="Disable" [class.Error-Span]="!iptCep.valid  &&  (iptCep.dirty || iptCep.touched)">Apenas Numeros</span>
+        </label>
+        <label for="endereço">Endereço:
+            <input type="text" placeholder="Insira um endereço" name="address" [(ngModel)]="request.address" autocomplete="off">
+        </label>
+        <label for="numero">Número:
+            <input type="text" placeholder="Insira o número de seu endereço" name="number" #iptNumero="ngModel"[(ngModel)]="request.number" pattern="^[0-9]*$" autocomplete="off">
+            <span class="Disable" [class.Error-Span]="!iptNumero.valid  &&  (iptNumero.dirty || iptNumero.touched)">Apenas Numeros</span>
+        </label>
+        <label for="bairro">Bairro:
+            <input type="text" placeholder="Insira seu bairro" name="district" [(ngModel)]="request.district" autocomplete="off">
+        </label>
+        <label for="cidade">Cidade:
+            <input type="text" placeholder="Insira sua cidade" name="city" [(ngModel)]="request.city" autocomplete="off">
+        </label>
+        <label for="estado">Estado:
+            <input type="text" placeholder="Insira seu estado" name="state" [(ngModel)]="request.state" autocomplete="off">
+        </label>
+        <button (click)="Save(form.value)" [disabled]="!form.valid" [class.BtnEnable]="form.valid">Salvar</button>
+        <a href="/customers">Voltar</a>
+    </form>
+</section>
+<section  *ngIf="errors" class="Error-Back">
+    <h3>ERRO AO REALIZAR CADASTRO</h3>
+    <div *ngFor="let erro of errors">
+        <label for="erro">{{erro}}</label>
+    </div>
+</section>
