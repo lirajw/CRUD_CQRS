@@ -52,7 +52,7 @@ As seguintes ferramentas foram usadas na construção dos projetos:
     FontEnd
     
       Por se tratar de um CRUD de uma entidade apenas, a pagina de listagem de cliente abre assim que a aplicação é executada. Os conponentes de tela bem como a 
-      comunicação com a api encontrace na pasta app > customers
+      comunicação com a api encontra-se na pasta app > customers
         create-customer: pagina de criação de clientes
         update-customer: pagina de atualização de clientes
         Models: Modelos de envio e retorno da api
