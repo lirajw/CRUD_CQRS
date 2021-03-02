@@ -41,23 +41,23 @@ As seguintes ferramentas foram usadas na construção dos projetos:
 <br>
 
 ## Padrão
-    BackEnd
+    <h3>BackEnd</h3>
       
-      Desenvolvido em 4 principais camadas:
-          CURD_CQRS: Responsavel por receber todas as requisições http e enviar para seu respectivo fluxo.
-          Domain: Responsavel pela definição de Models, interfaces, Commands entre outros.
-          Infra.Data: Responsavel pela comunicação com nossa fonte de dados.
-          Service: Responsavel pela regra de negocio.
+      <p>Desenvolvido em 4 principais camadas:</p>
+          <p>CURD_CQRS: Responsavel por receber todas as requisições http e enviar para seu respectivo fluxo.</p>
+          <p>Domain: Responsavel pela definição de Models, interfaces, Commands entre outros.</p>
+          <p>Infra.Data: Responsavel pela comunicação com nossa fonte de dados.</p>
+          <p>Service: Responsavel pela regra de negocio.</p>
    
-    FontEnd
+    <h3>FontEnd</>
     
-      Por se tratar de um CRUD de uma entidade apenas, a pagina de listagem de cliente abre assim que a aplicação é executada. Os conponentes de tela bem como a 
-      comunicação com a api encontrace na pasta app > customers
-        create-customer: pagina de criação de clientes
-        update-customer: pagina de atualização de clientes
-        Models: Modelos de envio e retorno da api
-        customers.component.ts: pagina de listagem de clientes
-        customer.service.ts: classe responsavel pela comunicação com a API configurada com a url "https://localhost:5001/customer";
+      <p>Por se tratar de um CRUD de uma entidade apenas, a pagina de listagem de cliente abre assim que a aplicação é executada. Os conponentes de tela bem como a </p>
+      <p>comunicação com a api encontrace na pasta app > customers</p>
+        <p>create-customer: pagina de criação de clientes</p>
+        <p>update-customer: pagina de atualização de clientes</p>
+        <p>Models: Modelos de envio e retorno da api</p>
+        <p>customers.component.ts: pagina de listagem de clientes</p>
+        <p>customer.service.ts: classe responsavel pela comunicação com a API configurada com a url "https://localhost:5001/customer".</p>
       
 <br>
 ## 📄 Licença 
